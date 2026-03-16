@@ -167,8 +167,6 @@ export function NIS2() {
         </div>
       </section>
     </div>
-  )
-}
 import Image from "next/image";
 
 export function NIS2() {
@@ -189,4 +187,6 @@ export function NIS2() {
       />
     </div>
   );
+}
+  )
 }

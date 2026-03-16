@@ -104,13 +104,13 @@ export function NIS2() {
 
             {/* Sidebar */}
             <div className="space-y-6">
-              <div className="flex justify-center items-center py-10">
+              <div className="w-full flex justify-center items-center py-10 bg-primary">
   <Image
     src="/imagennis2.jpg"
     alt="Imagen NIS2"
-    width={600}
+    width={800}
     height={400}
-    className="rounded-lg"
+    className="rounded-lg object-cover"
   />
 </div>
 

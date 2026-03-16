@@ -106,7 +106,7 @@ export function NIS2() {
             <div className="space-y-6">
               <div className="w-full flex justify-center items-center py-10 bg-primary">
   <Image
-    src="/imagennis2.jpg"
+    src="/imagennis2.png"
     alt="Imagen NIS2"
     width={800}
     height={400}

@@ -98,6 +98,7 @@ export function Auditor() {
     height={40}
     className="object-contain"
   />
+</div>  
 </div>
 
 </div>

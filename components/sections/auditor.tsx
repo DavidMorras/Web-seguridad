@@ -93,8 +93,8 @@ export function Auditor() {
   <Image
     src="/govertislogo.png"
     alt="Logo Govertis"
-    width={120}
-    height={120}
+    width={200}
+    height={200}
     className="object-contain"
   />
 </div>

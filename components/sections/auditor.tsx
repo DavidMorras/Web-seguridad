@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button"
 import { ArrowRight, ClipboardCheck, FileSearch, FileText, CheckCircle, ExternalLink, BarChart3 } from "lucide-react"
+import Image from "next/image";
 
 const preparationPhases = [
   {
@@ -90,7 +91,7 @@ export function Auditor() {
     Más información sobre Govertis
   </a>
 
-  <import Image from "next/image";
+  <Image></Image>
 
     src="/govertislogo.png"
     alt="Logo Govertis"

@@ -99,8 +99,6 @@ export function Auditor() {
   />
 </div>
 
-</div>
-
 
           </div>
         </div>

@@ -79,25 +79,28 @@ export function Auditor() {
             <p className="text-muted-foreground">
               Servicios alineados con las prácticas de Govertis en continuidad, ciberresiliencia e infraestructuras críticas.
             </p>
-            <a
-              href="https://www.govertis.com/areas-de-practica/continuidad-ciberresiliencia-iicc"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 text-primary hover:underline font-medium shrink-0"
-            >
-              Ver prácticas de Govertis
-              <ExternalLink className="h-4 w-4" />
-              <div className="w-full flex justify-center items-center mt-6">
+            <div className="flex items-center gap-3">
+  <div className="flex items-center gap-3">
+  <a
+    href="https://www.govertis.com/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-blue-400 underline"
+  >
+    Más información sobre Govertis
+  </a>
+
   <Image
     src="/govertislogo.png"
-    alt="Logo govertis"
+    alt="Logo Govertis"
     width={40}
     height={40}
     className="object-contain"
   />
 </div>
 
-            </a>
+</div>
+
           </div>
         </div>
       </section>

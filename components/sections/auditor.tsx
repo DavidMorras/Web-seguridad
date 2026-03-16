@@ -87,6 +87,16 @@ export function Auditor() {
             >
               Ver prácticas de Govertis
               <ExternalLink className="h-4 w-4" />
+              <div className="w-full flex justify-center items-center mt-6">
+  <Image
+    src="/govertislogo.png"
+    alt="Logo govertis"
+    width={40}
+    height={40}
+    className="object-contain"
+  />
+</div>
+
             </a>
           </div>
         </div>

@@ -169,3 +169,24 @@ export function NIS2() {
     </div>
   )
 }
+import Image from "next/image";
+
+export function NIS2() {
+  return (
+    <div className="bg-black text-white flex flex-col items-center justify-center py-10">
+      <h1 className="text-4xl font-bold mb-4">NIS2</h1>
+      <p className="text-center max-w-xl mb-6">
+        Formación especializada para directivos sobre la Directiva NIS2, diseñada
+        para comprender y cumplir con las nuevas exigencias europeas en ciberseguridad.
+      </p>
+
+      <Image
+        src="/imagennis2.jpg"
+        alt="Imagen NIS2"
+        width={600}
+        height={400}
+        className="rounded-lg"
+      />
+    </div>
+  );
+}

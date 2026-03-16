@@ -98,6 +98,16 @@ export function NIS2() {
                 >
                   Ver metodología y profesorado en AEC
                   <ExternalLink className="h-4 w-4" />
+                  <div className="w-full flex justify-center items-center mt-6">
+  <Image
+    src="/aeclogo.jpeg"
+    alt="Logo AEC"
+    width={200}
+    height={200}
+    className="object-contain"
+  />
+</div>
+
                 </a>
               </div>
             </div>

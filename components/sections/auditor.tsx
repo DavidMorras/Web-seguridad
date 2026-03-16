@@ -81,6 +81,7 @@ export function Auditor() {
             </p>
             <div className="flex items-center gap-3">
   <div className="flex items-center gap-3">
+  <div className="flex items-center gap-3">
   <a
     href="https://www.govertis.com/"
     target="_blank"
@@ -97,6 +98,8 @@ export function Auditor() {
     height={40}
     className="object-contain"
   />
+</div>
+
 </div>
 
 </div>

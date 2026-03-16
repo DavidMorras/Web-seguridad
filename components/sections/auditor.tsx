@@ -80,7 +80,7 @@ export function Auditor() {
             <p className="text-muted-foreground">
               Servicios alineados con las prácticas de Govertis en continuidad, ciberresiliencia e infraestructuras críticas.
             </p>
-<div className="flex items-center gap-3">
+<div className="flex items-center gap-6">
   <a
     href="https://www.govertis.com/"
     target="_blank"
@@ -93,8 +93,8 @@ export function Auditor() {
   <Image
     src="/govertislogo.png"
     alt="Logo Govertis"
-    width={40}
-    height={40}
+    width={120}
+    height={120}
     className="object-contain"
   />
 </div>

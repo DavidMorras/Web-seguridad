@@ -90,7 +90,8 @@ export function Auditor() {
     Más información sobre Govertis
   </a>
 
-  <Image
+  <import Image from "next/image";
+  Imagen 
     src="/govertislogo.png"
     alt="Logo Govertis"
     width={40}

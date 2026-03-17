@@ -43,3 +43,20 @@ export default function RootLayout({
     </html>
   )
 }
+"use client";
+import { useEffect } from "react";
+import { usePathname } from "next/navigation";
+
+export default function RootLayout({ children }) {
+  const pathname = usePathname();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return (
+    <html lang="es">
+      <body>{children}</body>
+    </html>
+  );
+}

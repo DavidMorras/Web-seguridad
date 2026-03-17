@@ -48,7 +48,7 @@ export function Inicio({ setActiveTab }: InicioProps) {
           <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
             <div className="text-primary-foreground">
               <h1 className="text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl text-balance">
-                Consultoría en Ciberseguridad y Cumplimiento Normativo
+                Profesional en Ciberseguridad, Cumplimiento Normativo y GRC
               </h1>
               <p className="mt-6 text-lg leading-relaxed text-primary-foreground/90">
                 Experto en formación, auditoría y gestión de riesgos para organizaciones 

@@ -7,11 +7,18 @@ export default function ScrollToTop() {
 
   useEffect(() => {
     console.log("ScrollToTop ejecutado en:", pathname);
-    setTimeout(() => {
-      window.scrollTo({ top: 0, behavior: "smooth" });
-    }, 100);
+
+    // Busca el contenedor que realmente tiene el scroll
+    const scrollContainer =
+      document.querySelector("[data-nextjs-scroll-focus-boundary]") ||
+      document.scrollingElement ||
+      document.documentElement;
+
+    scrollContainer.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
   }, [pathname]);
 
   return null;
 }
-

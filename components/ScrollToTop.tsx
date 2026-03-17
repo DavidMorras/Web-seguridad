@@ -1,24 +1,16 @@
 "use client";
 import { useEffect } from "react";
-import { usePathname } from "next/navigation";
 
 export default function ScrollToTop() {
-  const pathname = usePathname();
-
   useEffect(() => {
-    console.log("ScrollToTop ejecutado en:", pathname);
+    const handleHashChange = () => {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    };
 
-    // Busca el contenedor que realmente tiene el scroll
-    const scrollContainer =
-      document.querySelector("[data-nextjs-scroll-focus-boundary]") ||
-      document.scrollingElement ||
-      document.documentElement;
+    window.addEventListener("hashchange", handleHashChange);
 
-    scrollContainer.scrollTo({
-      top: 0,
-      behavior: "smooth",
-    });
-  }, [pathname]);
+    return () => window.removeEventListener("hashchange", handleHashChange);
+  }, []);
 
   return null;
 }

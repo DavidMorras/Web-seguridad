@@ -6,24 +6,6 @@ import './globals.css'
 const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
-"use client";
-import { useEffect } from "react";
-import { usePathname } from "next/navigation";
-
-export default function RootLayout({ children }) {
-  const pathname = usePathname();
-
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, [pathname]);
-
-  return (
-    <html lang="es">
-      <body>{children}</body>
-    </html>
-  );
-}
-
 export const metadata: Metadata = {
   title: 'Jorge Morrás | Consultor en Ciberseguridad',
   description: 'Consultor especializado en ciberseguridad, formación NIS2, auditorías, ISO 27001 y gestión de riesgos. Servicios de formación, concienciación y tutorización profesional.',

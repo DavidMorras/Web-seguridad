@@ -48,11 +48,12 @@ export function Inicio({ setActiveTab }: InicioProps) {
           <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
             <div className="text-primary-foreground">
               <h1 className="text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl text-balance">
-                Profesional en Ciberseguridad, Cumplimiento Normativo y GRC
+                Profesional en Ciberseguridad, Cumplimiento Normativo 
               </h1>
               <p className="mt-6 text-lg leading-relaxed text-primary-foreground/90">
-                Experto en formación, auditoría y gestión de riesgos para organizaciones 
-                que buscan excelencia en seguridad de la información.
+                Soy Jorge Morrás, profesional especializado en ciberseguridad, auditoría y cumplimiento normativo. 
+                 A través de esta plataforma comparto mi experiencia y ofrezco formaciones prácticas para quienes 
+                 quieren avanzar en su carrera dentro del sector.
               </p>
               <div className="mt-8 flex flex-wrap gap-4">
                 <Button

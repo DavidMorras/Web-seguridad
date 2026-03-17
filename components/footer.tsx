@@ -68,7 +68,7 @@ export function Footer({ setActiveTab }: FooterProps) {
                 LinkedIn
               </a>
               <p className="text-sm text-primary-foreground/80">
-                Madrid, España
+                <Zaragoza></Zaragoza>, España
               </p>
             </div>
           </div>

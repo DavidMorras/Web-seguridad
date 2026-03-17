@@ -6,9 +6,12 @@ export default function ScrollToTop() {
   const pathname = usePathname();
 
   useEffect(() => {
-    const scrollContainer = document.querySelector("main") || window;
-    scrollContainer.scrollTo({ top: 0, behavior: "smooth" });
+    console.log("ScrollToTop ejecutado en:", pathname);
+    setTimeout(() => {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }, 100);
   }, [pathname]);
 
   return null;
 }
+

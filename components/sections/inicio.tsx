@@ -97,7 +97,25 @@ export function Inicio({ setActiveTab }: InicioProps) {
           </div>
         </div>
       </section>
-
+<a
+                    href="https://es.linkedin.com/in/jorgemorras"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Contactar
+                    <ArrowRight className="ml-2 h-4 w-4" />
+                  </a>
+                </Button>
+              </div>
+            </div>
+            <div className="hidden lg:flex lg:justify-center">
+              <div className="relative">
+                <div className="absolute -inset-4 rounded-full bg-primary-foreground/10 blur-3xl" />
+                <Shield className="relative h-64 w-64 text-primary-foreground/20" strokeWidth={0.5} />
+              </div>
+            </div>
+          </div>
+        </div>
       {/* Services Section */}
       <section className="py-16 sm:py-24 bg-muted">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">

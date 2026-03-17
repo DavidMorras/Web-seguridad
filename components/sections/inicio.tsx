@@ -89,19 +89,10 @@ export function Inicio({ setActiveTab }: InicioProps) {
             </h2>
             <div className="mt-6 space-y-4 text-lg leading-relaxed text-muted-foreground">
               <p>
-                Soy un profesional con amplia experiencia en el ámbito de la ciberseguridad, 
-                especializado en formación ejecutiva, auditorías de cumplimiento y gestión integral del riesgo.
+                Mi labor se centra en la ciberseguridad y el cumplimiento normativo, ofreciendo 
+                formación y contenidos adaptados a las necesidades actuales del sector. 
               </p>
-              <p>
-                Mi enfoque se centra en ayudar a las organizaciones a entender y cumplir con las 
-                normativas más exigentes del sector, transformando los requisitos regulatorios en 
-                ventajas competitivas reales.
-              </p>
-              <p>
-                Colaboro con escuelas de negocios de prestigio y organizaciones líderes para 
-                impartir formación de alto nivel y preparar a profesionales para las certificaciones 
-                más demandadas del mercado.
-              </p>
+            
             </div>
           </div>
         </div>

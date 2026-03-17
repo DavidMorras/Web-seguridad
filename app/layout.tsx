@@ -3,6 +3,13 @@ import { Geist, Geist_Mono } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 import ScrollToTop from "@/components/ScrollToTop";
+import ClientWrapper from "@/components/ClientWrapper";
+<body>
+  <ClientWrapper>
+    {children}
+  </ClientWrapper>
+</body>
+
 <body>
   <ScrollToTop />
   {children}

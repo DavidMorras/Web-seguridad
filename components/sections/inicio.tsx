@@ -95,9 +95,8 @@ export function Inicio({ setActiveTab }: InicioProps) {
             
             </div>
           </div>
-        </div>
-      </section>
-<a
+        </div> 
+        <a
                     href="https://es.linkedin.com/in/jorgemorras"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -115,7 +114,9 @@ export function Inicio({ setActiveTab }: InicioProps) {
               </div>
             </div>
           </div>
-        </div>
+        </div> 
+      </section>
+
       {/* Services Section */}
       <section className="py-16 sm:py-24 bg-muted">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">

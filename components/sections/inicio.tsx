@@ -92,29 +92,19 @@ export function Inicio({ setActiveTab }: InicioProps) {
                 Mi labor se centra en la ciberseguridad y el cumplimiento normativo, ofreciendo 
                 formación y contenidos adaptados a las necesidades actuales del sector. 
               </p>
+              <a
+  href="https://www.linkedin.com/in/jorge-morr%C3%A1s-4b1a8a1b7/"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="mt-4 inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded transition"
+>
+  Ver perfil en LinkedIn
+</a>
+
             
             </div>
           </div>
-        </div> 
-        <a
-                    href="https://es.linkedin.com/in/jorgemorras"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Contactar
-                    <ArrowRight className="ml-2 h-4 w-4" />
-                  </a>
-                </Button>
-              </div>
-            </div>
-            <div className="hidden lg:flex lg:justify-center">
-              <div className="relative">
-                <div className="absolute -inset-4 rounded-full bg-primary-foreground/10 blur-3xl" />
-                <Shield className="relative h-64 w-64 text-primary-foreground/20" strokeWidth={0.5} />
-              </div>
-            </div>
-          </div>
-        </div> 
+        </div>    
       </section>
 
       {/* Services Section */}

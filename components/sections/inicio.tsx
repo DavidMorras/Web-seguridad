@@ -51,9 +51,7 @@ export function Inicio({ setActiveTab }: InicioProps) {
                 Profesional en Ciberseguridad, Cumplimiento Normativo 
               </h1>
               <p className="mt-6 text-lg leading-relaxed text-primary-foreground/90">
-                Soy Jorge Morrás, profesional especializado en ciberseguridad, auditoría y cumplimiento normativo. 
-                 A través de esta plataforma comparto mi experiencia y ofrezco formaciones prácticas para quienes 
-                 quieren avanzar en su carrera dentro del sector.
+                Un punto de encuentro para quienes quieren iniciarse o avanzar en el ámbito de la ciberseguridad a través de formación clara y orientada a resultados. 
               </p>
               <div className="mt-8 flex flex-wrap gap-4">
                 <Button

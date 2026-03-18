@@ -99,8 +99,8 @@ export function Formacion() {
               <ExternalLink className="h-4 w-4" />
             </a>
               <Image
-    src="/govertislogo.png"
-    alt="Logo Govertis"
+    src="/eiplogo.png"
+    alt="Logo EIP"
     width={200}
     height={200}
     className="object-contain"

@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button"
 import { ArrowRight, BookOpen, Shield, AlertTriangle, Lock, ExternalLink, CheckCircle } from "lucide-react"
+import Image from "next/image"
 
 const courses = [
   {
@@ -97,6 +98,13 @@ export function Formacion() {
               Ver perfil en EI Posgrados
               <ExternalLink className="h-4 w-4" />
             </a>
+              <Image
+    src="/govertislogo.png"
+    alt="Logo Govertis"
+    width={200}
+    height={200}
+    className="object-contain"
+  />
           </div>
         </div>
       </section>

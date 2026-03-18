@@ -58,7 +58,6 @@ const courses = [
 const formats = [
   { title: "In-company", description: "Formación personalizada en las instalaciones del cliente" },
   { title: "Online", description: "Sesiones en directo con material digital completo" },
-  { title: "Presencial", description: "Formación en aula con ejercicios prácticos" },
 ]
 
 export function Formacion() {
@@ -75,8 +74,9 @@ export function Formacion() {
             </h1>
           </div>
           <p className="max-w-2xl text-xl text-primary-foreground/90 leading-relaxed">
-            Programas formativos especializados en normativas internacionales de seguridad, 
-            riesgo y privacidad.
+            Los contenidos se adaptan al nivel de responsabilidad de cada perfil, 
+            ofreciendo una visión clara y práctica de los riesgos, las buenas prácticas
+             y los controles necesarios para mejorar la postura de seguridad de la organización. 
           </p>
         </div>
       </section>

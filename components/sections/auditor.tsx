@@ -67,8 +67,11 @@ export function Auditor() {
             </h1>
           </div>
           <p className="max-w-2xl text-xl text-primary-foreground/90 leading-relaxed">
-            Servicios de auditoría y preparación para certificaciones, alineados con las 
-            mejores prácticas del sector y metodologías reconocidas.
+            La auditoría analiza los controles existentes, evalúa su eficacia y 
+            determina el grado de madurez en ciberseguridad. El resultado es un 
+            informe claro, priorizado y orientado a la toma de decisiones, que 
+            permite planificar mejoras con criterio y enfoque estratégico. 
+            
           </p>
         </div>
       </section>

@@ -185,7 +185,7 @@ export function Formacion() {
             <h2 className="text-2xl font-bold text-foreground mb-8 text-center">
               Formatos disponibles
             </h2>
-            <div className="grid gap-6 md:grid-cols-3 justify-items-center place-items-center">
+            <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 justify-items-center">
               {formats.map((format, index) => (
                 <div
                   key={index}

@@ -137,7 +137,7 @@ export function Formacion() {
                     {course.description}
                   </p>
 
-                  <div className="grid gap-6 md:grid-cols-3 justify-items-center place-items-center">
+                  <div className="grid gap-6 md:grid-cols-3">
                     <div>
                       <h4 className="font-semibold text-card-foreground mb-2">
                         Objetivo
@@ -181,7 +181,7 @@ export function Formacion() {
             <h2 className="text-2xl font-bold text-foreground mb-8 text-center">
               Formatos disponibles
             </h2>
-            <div className="grid gap-6 md:grid-cols-3">
+            <div className="grid gap-6 md:grid-cols-3 justify-items-center place-items-center">
               {formats.map((format, index) => (
                 <div
                   key={index}

@@ -89,22 +89,26 @@ export function Formacion() {
             <h2 className="text-xl font-semibold text-foreground">
               Formación Escuela de Negocios
             </h2>
-            <a
-              href="https://eiposgrados.com/experto/jorge-morras/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-2 text-primary hover:underline font-medium shrink-0"
-            >
-              Ver perfil en EI Posgrados
-              <ExternalLink className="h-4 w-4" />
-            </a>
-              <Image
+            <div className="flex items-center gap-4 ml-auto">
+  <a
+    href="https://eiposgrados.com/experto/jorge-morras/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="flex items-center gap-2 text-primary hover:underline font-medium"
+  >
+    Ver perfil en EI Posgrados
+    <ExternalLink className="h-4 w-4" />
+  </a>
+
+  <Image
     src="/eiplogopng.png"
     alt="Logo EIP"
-    width={200}
-    height={200}
+    width={120}
+    height={120}
     className="object-contain"
   />
+</div>
+
           </div>
         </div>
       </section>

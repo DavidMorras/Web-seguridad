@@ -57,8 +57,9 @@ export function Concienciacion() {
             </h1>
           </div>
           <p className="max-w-2xl text-xl text-primary-foreground/90 leading-relaxed">
-            Cursos especializados para mandos intermedios en gestión de riesgos y 
-            cumplimiento normativo, con un enfoque práctico y orientado a resultados.
+            La formación aborda los riesgos más habituales, las técnicas de ataque más utilizadas 
+            y las buenas prácticas que deben aplicarse para minimizar incidentes. El objetivo es dotar 
+            a los participantes de criterios claros y aplicables que mejoren la seguridad global de la organización. 
           </p>
         </div>
       </section>

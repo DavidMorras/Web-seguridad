@@ -44,7 +44,7 @@ export function NIS2() {
             <div className="space-y-8">
               <div>
                 <h2 className="text-2xl font-bold text-foreground mb-4">
-                  Formación para Directivos
+                  Formación para Directivos y Cargos Intermedios
                 </h2>
                 <p className="text-muted-foreground leading-relaxed">
                   La Directiva NIS2 representa un cambio significativo en las obligaciones de 

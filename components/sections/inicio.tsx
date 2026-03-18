@@ -170,3 +170,4 @@ export function Inicio({ setActiveTab }: InicioProps) {
     </div>
   )
 }
+<div style={{ height: "2000px", background: "#eee" }}></div>

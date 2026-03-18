@@ -64,9 +64,9 @@ export function Tutorizacion() {
             </h1>
           </div>
           <p className="max-w-2xl text-xl text-primary-foreground/90 leading-relaxed">
-            Tutorización personalizada en ciberseguridad, cumplimiento normativo y 
-            gestión del riesgo. Acompañamiento individualizado para alcanzar tus 
-            objetivos profesionales.
+            Acompañamiento continuo para garantizar que los participantes aplican 
+            los conocimientos adquiridos, consolidan hábitos seguros y avanzan de 
+            forma guiada en la mejora de la seguridad operativa.
           </p>
         </div>
       </section>

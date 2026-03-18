@@ -93,7 +93,7 @@ export function Formacion() {
               href="https://eiposgrados.com/experto/jorge-morras/"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-0 text-primary hover:underline font-medium shrink-0"
+              className="inline-flex items-center gap-10 text-primary hover:underline font-medium shrink-0"
             >
               Ver perfil en EI Posgrados
               <ExternalLink className="h-4 w-4" />

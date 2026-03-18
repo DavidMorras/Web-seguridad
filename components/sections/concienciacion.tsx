@@ -73,10 +73,9 @@ export function Concienciacion() {
               Formación para mandos intermedios
             </h2>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Los mandos intermedios son piezas clave en la implementación efectiva de los 
-              sistemas de gestión. Imparto cursos específicos que les proporcionan las 
-              herramientas y conocimientos necesarios para liderar equipos comprometidos 
-              con la seguridad y el cumplimiento normativo.
+              Formación diseñada para mandos internos que necesitan comprender los 
+              riesgos reales de la organización y aplicar prácticas seguras en su actividad 
+              diaria. Un enfoque claro y práctico para reforzar la seguridad desde dentro. 
             </p>
           </div>
 

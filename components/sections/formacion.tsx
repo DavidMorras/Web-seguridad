@@ -99,7 +99,7 @@ export function Formacion() {
               <ExternalLink className="h-4 w-4" />
             </a>
               <Image
-    src="/eiplogo.png"
+    src="/eiplogopng.png"
     alt="Logo EIP"
     width={200}
     height={200}

@@ -30,8 +30,8 @@ export function NIS2() {
           </div>
           <p className="max-w-2xl text-xl text-primary-foreground/90 leading-relaxed">
             NIS2 obliga a reforzar la gestión del riesgo, la respuesta ante incidentes y la resiliencia operativa. 
-            Te explico qué implica para tu organización y cómo implementar los controles necesarios con garantías. 
-            
+            Formación especializada para directivos y mandos intermedios sobre la Directiva NIS2, 
+            diseñada para comprender y cumplir con las nuevas exigencias europeas en ciberseguridad.
           </p>
         </div>
       </section>

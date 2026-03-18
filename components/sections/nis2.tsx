@@ -10,7 +10,6 @@ const objectives = [
 ]
 
 const formats = [
-  { title: "Presencial", description: "Formación in-situ en sus instalaciones" },
   { title: "Online", description: "Sesiones en directo con interacción completa" },
   { title: "In-company", description: "Programas adaptados a su organización" },
 ]
@@ -76,7 +75,7 @@ export function NIS2() {
                   Público objetivo
                 </h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  Esta formación está dirigida a directivos, responsables de seguridad, 
+                  Esta formación está dirigida a directivos y cargos intermedios, responsables de seguridad, 
                   CISOs, y miembros de comités de dirección que necesitan comprender las 
                   implicaciones estratégicas de la Directiva NIS2 para sus organizaciones.
                 </p>

@@ -137,7 +137,7 @@ export function Formacion() {
                     {course.description}
                   </p>
 
-                  <div className="grid gap-6 md:grid-cols-3">
+                  <div className="grid gap-6 md:grid-cols-3 justify-items-center place-items-center">
                     <div>
                       <h4 className="font-semibold text-card-foreground mb-2">
                         Objetivo

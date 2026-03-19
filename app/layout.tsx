@@ -19,15 +19,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="es">
       <body className="font-sans antialiased">
 
-        {/* HEADER */}
-        <header className="w-full border-b border-border bg-background">
-          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 h-16 flex items-center">
-            <Link href="/" className="flex items-center gap-2 hover:opacity-80 transition">
-              <Shield className="h-6 w-6 text-primary" />
-              <span className="font-semibold text-foreground text-lg">Jorge Morrás</span>
-            </Link>
-          </div>
-        </header>
 
         {/* MAIN CONTENT */}
         <main>

@@ -19,7 +19,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="es">
       <body className="font-sans antialiased">
 
-        {/* HEADER AÑADIDO */}
+        {/* HEADER */}
         <header className="w-full border-b border-border bg-background">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 h-16 flex items-center">
             <Link href="/" className="flex items-center gap-2 hover:opacity-80 transition">
@@ -29,9 +29,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           </div>
         </header>
 
-        <ClientWrapper>
-          {children}
-        </ClientWrapper>
+        {/* MAIN CONTENT */}
+        <main>
+          <ClientWrapper>
+            {children}
+          </ClientWrapper>
+        </main>
 
         <Analytics />
       </body>

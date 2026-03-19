@@ -3,8 +3,6 @@ import { Geist, Geist_Mono } from 'next/font/google';
 import { Analytics } from '@vercel/analytics/next';
 import './globals.css';
 import ClientWrapper from "@/components/ClientWrapper";
-import Link from "next/link";
-import { Shield } from "lucide-react";
 
 const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
@@ -18,15 +16,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="es">
       <body className="font-sans antialiased">
-
-
-        {/* MAIN CONTENT */}
-        <main>
-          <ClientWrapper>
-            {children}
-          </ClientWrapper>
-        </main>
-
+        <ClientWrapper>
+          {children}
+        </ClientWrapper>
         <Analytics />
       </body>
     </html>

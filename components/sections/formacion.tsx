@@ -103,8 +103,8 @@ export function Formacion() {
   <Image
     src="/eiplogopng.png"
     alt="Logo EIP"
-    width={120}
-    height={120}
+    width={140}
+    height={140}
     className="object-contain"
   />
 </div>

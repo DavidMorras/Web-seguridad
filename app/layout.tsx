@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from 'next/font/google';
 import { Analytics } from '@vercel/analytics/next';
 import './globals.css';
 import ClientWrapper from "@/components/ClientWrapper";
+import Link from "next/link"
 
 const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
@@ -24,3 +25,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     </html>
   );
 }
+<Link href="/" className="flex items-center gap-2 hover:opacity-80 transition">
+  <Shield className="h-6 w-6 text-primary" />
+  <span className="font-semibold text-foreground">Jorge Morrás</span>
+</Link>

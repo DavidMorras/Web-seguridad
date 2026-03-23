@@ -60,7 +60,7 @@ export function Inicio({ setActiveTab }: InicioProps) {
                   asChild
                 >
                   <a
-                    href="https://www.linkedin.com/in/jorge-morr%C3%A1s-4b1a8a1b7/"
+                    href="https://es.linkedin.com/in/jorgemorras"
                     target="_blank"
                     rel="noopener noreferrer"
                   >

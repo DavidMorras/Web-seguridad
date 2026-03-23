@@ -93,7 +93,7 @@ export function Inicio({ setActiveTab }: InicioProps) {
                 formación y contenidos adaptados a las necesidades actuales del sector. 
               </p>
               <a
-  href="https://www.linkedin.com/in/jorge-morr%C3%A1s-4b1a8a1b7/"
+  href="https://es.linkedin.com/in/jorgemorras"
   target="_blank"
   rel="noopener noreferrer"
   className="mt-4 inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded transition"

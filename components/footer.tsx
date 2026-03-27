@@ -83,9 +83,8 @@ export function Footer({ setActiveTab }: FooterProps) {
               <div className="space-y-2 text-sm text-primary-foreground/80">
                 <p>David Morrás</p>
                 <p>Email: <a href="mailto:davidmorras2@gmail.com" className="hover:text-primary-foreground transition-colors">davidmorras2@gmail.com</a></p>
-                <p>Tel: <a href="tel:+34680210456" className="hover:text-primary-foreground transition-colors">+34 680210456</a></p>
                 <a
-                  href="https://landingspro.com"
+                  href="https://landing-david.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="underline hover:text-primary-foreground transition-colors"

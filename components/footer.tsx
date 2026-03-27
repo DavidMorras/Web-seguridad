@@ -1,5 +1,4 @@
-import Image from "next/image"
-import { Linkedin } from "lucide-react"
+import { Shield, Linkedin } from "lucide-react"
 
 interface FooterProps {
   setActiveTab: (tab: string) => void
@@ -23,13 +22,7 @@ export function Footer({ setActiveTab }: FooterProps) {
           {/* Brand */}
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <Image
-                src="/icon.png"
-                alt="Logo"
-                width={32}
-                height={32}
-                className="rounded-md"
-              />
+              <Shield className="h-8 w-8" />
               <span className="text-xl font-semibold">Jorge Morrás</span>
             </div>
             <p className="text-sm text-primary-foreground/80 leading-relaxed">

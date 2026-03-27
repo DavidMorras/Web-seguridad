@@ -18,6 +18,7 @@ export function Footer({ setActiveTab }: FooterProps) {
     <footer className="border-t border-border bg-primary text-primary-foreground">
       <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
+          
           {/* Brand */}
           <div>
             <div className="flex items-center gap-2 mb-4">
@@ -52,12 +53,13 @@ export function Footer({ setActiveTab }: FooterProps) {
             </ul>
           </div>
 
-          {/* Contact */}
+          {/* Contact + WebMaster */}
           <div>
             <h3 className="text-sm font-semibold uppercase tracking-wider mb-4">
               Contacto
             </h3>
-            <div className="space-y-3">
+
+            <div className="space-y-3 mb-8">
               <a
                 href="https://es.linkedin.com/in/jorgemorras"
                 target="_blank"
@@ -70,6 +72,27 @@ export function Footer({ setActiveTab }: FooterProps) {
               <p className="text-sm text-primary-foreground/80">
                 La Almunia de Doña Godina, Zaragoza, España
               </p>
+            </div>
+
+            {/* Web-Master */}
+            <div>
+              <h3 className="text-sm font-semibold uppercase tracking-wider mb-4">
+                Web‑Master
+              </h3>
+
+              <div className="space-y-2 text-sm text-primary-foreground/80">
+                <p>David Morrás</p>
+                <p>Email: <a href="mailto:davidmorras2@gmail.com" className="hover:text-primary-foreground transition-colors">davidmorras2@gmail.com</a></p>
+                <p>Tel: <a href="tel:+34680210456" className="hover:text-primary-foreground transition-colors">+34 680210456</a></p>
+                <a
+                  href="https://landingspro.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline hover:text-primary-foreground transition-colors"
+                >
+                  landingspro.com
+                </a>
+              </div>
             </div>
           </div>
         </div>

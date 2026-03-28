@@ -89,7 +89,7 @@ export function Footer({ setActiveTab }: FooterProps) {
                   rel="noopener noreferrer"
                   className="underline hover:text-primary-foreground transition-colors"
                 >
-                  landingspro.com
+                  https://landingspro.vercel.app/
                 </a>
               </div>
             </div>

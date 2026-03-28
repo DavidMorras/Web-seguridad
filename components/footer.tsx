@@ -84,12 +84,12 @@ export function Footer({ setActiveTab }: FooterProps) {
                 <p>David Morrás</p>
                 <p>Email: <a href="mailto:davidmorras2@gmail.com" className="hover:text-primary-foreground transition-colors">davidmorras2@gmail.com</a></p>
                 <a
-                  href="https://landing-david.vercel.app/"
+                  href="https://davidlandingstudio.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="underline hover:text-primary-foreground transition-colors"
                 >
-                  https://landingspro.vercel.app/
+                  https://davidlandingstudio.vercel.app/
                 </a>
               </div>
             </div>
